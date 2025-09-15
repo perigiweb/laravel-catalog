@@ -1,0 +1,28 @@
+@import "./config";
+
+header {
+    &.navbar {
+        --#{$prefix}navbar-padding-y: .25rem;
+
+        background: var(--#{$prefix}white);
+
+        .nav-link {
+            --#{$prefix}nav-link-padding-y: 0;
+        }
+
+        height: $header-height;
+
+        .icon {
+            height: 24px;
+            width: auto;
+        }
+    }
+
+    &.navbar-expand {
+        .navbar-nav {
+            .nav-link {
+                --#{$prefix}navbar-nav-link-padding-x: .125rem;
+            }
+        }
+    }
+}

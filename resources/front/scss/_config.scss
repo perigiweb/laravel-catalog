@@ -1,0 +1,65 @@
+@import "~bootstrap/scss/functions";
+
+$min-contrast-ratio: 3;
+
+$white: #ffffff;
+
+$gray-100: #f1f5f9;
+$gray-200: #e2e8f0;
+$gray-300: #cbd5e1;
+$gray-400: #94a3b8;
+$gray-500: #64748b;
+$gray-600: #475569;
+$gray-700: #334155;
+$gray-800: #1e293b;
+$gray-900: #0f172a;
+
+$blue:         #0ea5e9;
+$indigo:       #6366f1;
+$purple:       #a855f7;
+$pink:         #ec4899;
+$red:          #ef4444;
+$orange:       #f59e0b;
+$yellow:       #eab308;
+$green:        #10b981;
+$teal:         #14b8a6;
+$cyan:         #06b6d4;
+
+$primary:      shade-color($blue, 40%);
+$danger:       shade-color($red, 20%);
+$warning:      $orange;
+$success:      shade-color($green, 20%);
+$dark:         $gray-900;
+$secondary:    $gray-500;
+
+$body-color:   $gray-900;
+$body-bg:      $gray-200;
+$body-bg-dark: $gray-800;
+
+$border-color: $gray-400;
+
+$font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$enable-responsive-font-sizes: true;
+
+$enable-shadows: true;
+
+$focus-ring-width: .125rem;
+
+$spacer: 1.5rem;
+
+$alert-padding-y: $spacer * .5;
+
+$card-border-width: 1;
+$card-border-radius: 1rem;
+$card-bg: $white;
+$card-cap-padding-y: 1rem;
+
+$input-bg: $white;
+
+$header-height: 48px;
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
